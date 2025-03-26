@@ -30,16 +30,17 @@ Searched for any file that had the string "tor" in it and discovered what looks 
 
 **Query used to locate events:**
 
-```kql
+**KQL Query**
+
 DeviceFileEvents
 | where DeviceName == "employee"
 | where FileName has_any ("tor.exe", "firefox.exe", "tor-browser.exe")
 | project Timestamp, DeviceName, InitiatingProcessAccountName, ActionType, FileName, FolderPath, SHA256, InitiatingProcessCommandLine  
 | order by Timestamp desc
----
 
-<img width="1212" alt="image" SRC="https://github.com/user-attachments/assets/d65bcc6c-6ebc-4043-8922-c3464f89af88">
-https://imgur.com/YOG90hG
+<a href="https://imgur.com/YOG90hG"><img src="https://i.imgur.com//YOG90hG.png" tB2TqFcLitle="source: imgur.com" /></a>
+
+
 ---
 
 ### 2. Searched the `DeviceProcessEvents` Table
