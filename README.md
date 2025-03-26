@@ -30,7 +30,7 @@ Searched for any file that had the string "tor" in it and discovered what looks 
 
 **Query used to locate events:**
 
-**KQL Query**
+#### KQL Query:
 
 DeviceFileEvents
 | where DeviceName == "employee"
