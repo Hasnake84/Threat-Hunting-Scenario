@@ -4,6 +4,7 @@
 
 # Threat Hunt Report: Unauthorized TOR Usage
 [Scenario Creation](https://github.com/Hasnake84/Threat-Hunting-Scenario/blob/main/threat-hunting-scenario-tor-event-creation.md)
+
 ## Platforms and Languages Leveraged
 - Windows 10 Virtual Machines (Microsoft Azure)
 - EDR Platform: Microsoft Defender for Endpoint
